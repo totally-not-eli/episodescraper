@@ -19,3 +19,5 @@ Then, simply move to the root directory of this repository and then install the 
 `pip install -r requirements.txt`
 
 Demo will be provided soon.
+
+# In order to make accurate scrapes, the web application calculates the pearson correlation coefficient and the cosine similarity between the search / query to the possible items that can be scraped. 
