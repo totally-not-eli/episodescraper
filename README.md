@@ -1,5 +1,4 @@
 # Episode Scraper
-
 ## This is a web application which takes in a query/ movie / series as an input then outputs a google drive link which has all the episodes.
 
 ### To use, simply install python by following the steps on the link below.
