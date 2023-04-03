@@ -17,3 +17,6 @@ def get_cosine_similarity2(vector1, vector2): # use this if the dimensions in nu
 
 def convert_code_to_string(code):
     return ''.join(chr(i) for i in code)
+
+def capitalize_all_words(string):
+    return ' '.join(word.capitalize() for word in string.split(' '))
