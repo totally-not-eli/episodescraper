@@ -22,6 +22,6 @@ class EpisodecrawlerPipeline:
         return item
     
     def close_spider(self, spider):
-        print(f"Closing spider... {spider.name} after search for {spider.search_term}", ' Total Items: ', len(self.items), ' Spider Items: ', len(self.spider_items))
+        print(f"Closing spider... {spider.name} after search for {spider.search_term}", '\nTotal Items:', len(self.items), 'Spider Items:', len(self.spider_items))
         self.items = []
         self.spider_items = []
